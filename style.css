@@ -1,0 +1,81 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(250, 216, 155);
+   
+}
+
+#calcTemp {
+    padding: 75px 67px;
+    min-height: 485px;
+    background-color: #0b0b0b;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border: 2px solid #cdd8fd;
+    border-radius: 30px;
+}
+
+label {
+    font-size: 34px;
+    line-height: 88px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+#temp {
+    width: 110px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 8px;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#temp_diff {
+    width: 150px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+}
+
+#submit {
+    width: 115px;
+    border-radius: 15px;
+    margin: 35px 0 20px 0;
+    font-size: 20px;
+    background-color: rgb(218 229 220);
+    padding:13px;
+    transition: all 0.5s ease;
+    font-weight: bold;
+}
+
+#submit:hover{
+    background-color: rgb(248, 169, 64);
+    cursor: pointer;
+}
+
+#result{
+    font-size: 27px;
+    color: #7a97f4;
+    
+}
